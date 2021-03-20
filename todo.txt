@@ -1,0 +1,43 @@
+iGov: the people take control of the legislative branch.
+
+- authors
+
+- user / staff created bills
+    - what is a bill conposed of?
+        - title
+        - heading
+        - summary ***
+        - bill number
+        - date
+        - authors
+    - ammendment or bill
+        - For a bill: "Be it enacted by the Senate and House of Representatives of the United States of America in Congress assembled, that:"
+        - For an Amendment: "Be it amended by the Senate and House of Representatives of the United States of America in Congress assembled, that:"
+    - sections 
+        - Section 1:  Explanation of terminology- Which terms need to be defined in order to understand the bill?
+        - Section 2:  What is the act going to do? Who is going to be involved / impacted  / affected by the act
+        - Section 3:  Where?  All of U.S. or a certain area / place in the U.S.?
+        - Section 4:  How is the act going to be funded?  Who is going to enforce / administer this act?(Which government agency will oversee the bill and its duties?)
+        - Section 5:  Penalties (if any) for non-compliance (not following the rules) of the act
+        - Section 6:  Enactment Date:  When will the law go into effect?
+
+- voting system 
+    - user voting statistics and graphical data interface
+    - time limits on votes
+    - highlight popular bills
+
+- bill feed filters 
+    - hot (based on voting)
+    - contreversal (based on voting)
+    - new
+
+- search functionality
+
+- senate RSS > https://www.congress.gov/rss/senate-floor-today.xml
+- House RSS > https://www.congress.gov/rss/house-floor-today.xml
+- presented to president > https://www.congress.gov/rss/presented-to-president.xml
+- other RSS feeds > https://www.govinfo.gov/feeds 
+    - existing laws, statutes and codes
+
+
+
