@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+GOOGLE_API_KEY = 'AIzaSyD--your-google-maps-key-SjQBE'
 
 # Application definition
 
@@ -38,6 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # installed modules
+    # 'address',
+
+    # internal applications
     'Legislation',
 ]
 
