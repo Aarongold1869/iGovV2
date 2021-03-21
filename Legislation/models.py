@@ -136,13 +136,6 @@ class BillComment(models.Model):
     bill_comment_likes = models.ManyToManyField(User, related_name='bill_comment_like_user', blank=True, through=BillCommentLike)
     bill_comment_dislikes = models.ManyToManyField(User, related_name='bill_comment_dislike_user', blank=True, through=BillCommentDisLike)
     timestamp = models.DateTimeField(auto_now_add=True)
-    
-    # @property
-    # def bill_comment_karma(self):
-    #     likes = BillCommentLikes.objects.filter(id=self.id).count()
-    #     dislikes = BillCommentDisLikes.objects.filter(id=self.id).count()
-    #     karma = likes - dislikes
-    #     return karma
 
 class BillType(models.Model):
     bill_type = models.CharField(max_length=220, null=False, default=None)  
@@ -165,10 +158,9 @@ class Bill(models.Model):
     bill_comments = models.ManyToManyField(User, related_name='bill_comment_user', blank=True, through=BillComment)
     passed = models.BooleanField()
     passed_date = models.DateTimeField(blank=True, null=True)
-    # user_vote
     # house_vote 
-    senate_vote
-    bill_score 
+    # senate_vote
+    
     
 
 
