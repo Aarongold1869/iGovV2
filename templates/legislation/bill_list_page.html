@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class='col-12 col-md-10 mb-3 mx-auto'>
+    <h1>Bills:</h1>
+        <div class='row'>
+            {% for bill in bill_list %}
+                {% include 'legislation/bill_inline.html' with bill=bill truncate=True detail=False %}
+            {% endfor %}
+        </div>
+</div>
+{% endblock content %}

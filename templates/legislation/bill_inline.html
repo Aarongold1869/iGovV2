@@ -1,0 +1,16 @@
+<div class='col-12 col-md-10 mb-3 mx-auto'>
+    <div class='card border border-dark text-dark'>
+       <div class='card-body'>
+           <h5 class='card-title'>{{ bill.bill_title }}</h5>
+           <p class='card-text'>
+               <small class='text-muted'>{{ bill.heading }}</small>
+               {% if truncate %}
+                   {{ bill.summmary|linebreaks|truncatewords:30 }}
+               {% else %}
+                   {{ bill.summary|linebreaks }}
+               {% endif %}
+           </p>
+           <a href='#' class="btn btn-dark" role='button' aria-pressed="true">View Bill</a>
+       </div>
+    </div>
+   </div>
